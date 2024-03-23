@@ -641,8 +641,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="mb-5 flex items-start">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="59">
+                    <div class="mb-5 md:flex md:items-start p-4 bg-gray-50 hover:bg-gray-100 rounded-lg">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="59" class="mb-2 md:mb-0">
                             <path
                                 d="M11.273 51.25c2.188 0 3.7 1.598 3.7 3.871 0 .246-.012.438-.028.527H9.617c.07.848.852 1.465 1.746 1.465.793 0 1.219-.336 1.555-.879l1.805.72c-.602 1.187-1.774 1.917-3.36 1.917-2.261 0-3.847-1.566-3.847-3.809 0-2.187 1.617-3.812 3.757-3.812Zm12.649 0c1.246 0 2.422.672 2.875 1.684l-1.746.925c-.219-.543-.707-.894-1.145-.894-.398 0-.676.203-.676.5 0 .262.207.453.602.555l.91.234c1.363.351 2.098 1.113 2.098 2.14 0 1.454-1.23 2.477-2.918 2.477-1.442 0-2.586-.66-3.07-1.773l1.734-.953c.262.601.805.984 1.348.984.457 0 .765-.207.765-.559 0-.25-.222-.437-.66-.543l-.852-.203c-1.367-.324-2.07-1.086-2.07-2.23 0-1.375 1.145-2.344 2.805-2.344Zm9.992 0c1.246 0 2.422.672 2.875 1.684l-1.746.925c-.219-.543-.703-.894-1.145-.894-.398 0-.675.203-.675.5 0 .262.207.453.601.555l.91.234c1.368.351 2.102 1.113 2.102 2.14 0 1.454-1.234 2.477-2.922 2.477-1.441 0-2.586-.66-3.07-1.773l1.734-.953c.262.601.805.984 1.348.984.457 0 .765-.207.765-.559 0-.25-.222-.437-.66-.543l-.851-.203c-1.367-.324-2.07-1.086-2.07-2.23 0-1.375 1.144-2.344 2.804-2.344Zm12.55 0c2.188 0 3.7 1.598 3.7 3.871 0 .246-.016.438-.031.527h-5.328c.074.848.851 1.465 1.746 1.465.793 0 1.219-.336 1.558-.879l1.805.72c-.602 1.187-1.777 1.917-3.363 1.917-2.258 0-3.844-1.566-3.844-3.809 0-2.187 1.613-3.812 3.758-3.812Zm-6.066-1.934v2.125h1.832V53.2h-1.832v2.653c0 .777.336 1.086 1.04 1.086.265 0 .558-.075.792-.22v1.848c-.32.16-.804.293-1.496.293-1.527 0-2.464-.941-2.464-2.55v-3.11h-1.028v-1.758h1.028v-2.125Zm21.559 0v2.125h1.836V53.2h-1.836v2.653c0 .777.336 1.086 1.043 1.086.262 0 .555-.075.793-.22v1.848c-.324.16-.809.293-1.5.293-1.527 0-2.465-.941-2.465-2.55v-3.11h-1.027v-1.758h1.027v-2.125Zm-58.465-.894c2.235 0 3.774 1.2 3.774 3.312 0 2.094-1.54 3.313-3.774 3.313H2.203v3.637H0V48.422Zm16.723 2.855c.16 0 .32.032.367.047v2.2c-.121-.06-.324-.09-.547-.09-1.187 0-1.89.879-1.89 2.3v2.95h-2.13V51.44h2.114v1.188c.383-.836 1.144-1.352 2.086-1.352Zm35.277-.027c1.656 0 2.672 1.129 2.672 2.96v4.474H56.02V54.71c0-.953-.47-1.496-1.305-1.496-.824 0-1.367.613-1.367 1.625v3.844h-2.145V51.44h2.145v.922c.441-.703 1.175-1.113 2.144-1.113Zm-25.512.191v7.243h-2.144V51.44Zm-18.722 1.48c-.848 0-1.54.645-1.63 1.333h3.247c-.09-.777-.75-1.332-1.617-1.332Zm35.191 0c-.851 0-1.543.645-1.629 1.333h3.242c-.085-.777-.746-1.332-1.613-1.332ZM3.54 50.399H2.203v2.7H3.54c.879 0 1.512-.5 1.512-1.352 0-.848-.633-1.348-1.512-1.348Zm25.371-2.3c.688 0 1.246.57 1.246 1.246s-.558 1.246-1.246 1.246c-.691 0-1.25-.57-1.25-1.246s.559-1.246 1.25-1.246Zm0 0"
                                 style="stroke:none;fill-rule:evenodd;fill:#4d4d4d;fill-opacity:1" />
@@ -650,263 +650,88 @@
                                 d="M51.852 7.219a10.603 10.603 0 0 0-2.176-3.79A10.449 10.449 0 0 0 46.219.892 9.986 9.986 0 0 0 37.98.887c-2.585 1.164-4.628 3.465-5.554 6.183-.23.68-.395 1.383-.489 2.098-.097.703-.097 1.453-.085 2.113l.039 4.07.058 8.149.024 4.074c.004.676-.004 1.356.004 2.035.003.336.015.684.015 1.012.004.328-.02.652-.027.984-.04.653-.113 1.31-.25 1.957a9.03 9.03 0 0 1-.617 1.895c-.547 1.211-1.317 2.332-2.29 3.242-1.953 1.809-4.624 2.797-7.245 2.567a9.183 9.183 0 0 1-3.758-1.098 9.513 9.513 0 0 1-3-2.582c-.41-.531-.77-1.098-1.078-1.695a9.736 9.736 0 0 1-.75-1.875 9.4 9.4 0 0 1-.301-3.977c.097-.656.246-1.3.449-1.926.21-.62.473-1.218.777-1.777a9.611 9.611 0 0 1 1.04-1.563 7.93 7.93 0 0 1 1.273-1.285c1.824-1.531 4.246-2.191 6.723-2.199 2.562.004 5.125.043 7.687.027l-.02-2.78c-2.55.054-5.101.234-7.652.425-1.426.11-2.828.46-4.148 1.031-.664.278-1.29.637-1.887 1.031a10.58 10.58 0 0 0-1.656 1.348c-.512.496-.961 1.055-1.36 1.637-.398.586-.75 1.207-1.035 1.855a13.26 13.26 0 0 0-1.12 4.11 13.496 13.496 0 0 0 .276 4.367c.332 1.441.93 2.832 1.77 4.094a11.595 11.595 0 0 0 3.246 3.238 11.023 11.023 0 0 0 4.379 1.668c.191.035.387.055.582.074.191.023.387.043.594.05.203.013.402.02.605.016.203 0 .406-.003.61-.02a10.644 10.644 0 0 0 2.398-.417 12.013 12.013 0 0 0 2.273-.91c.73-.383 1.415-.852 2.06-1.375 1.276-1.07 2.327-2.434 3.105-3.946.101-.187.19-.378.277-.574.09-.191.172-.39.246-.59.16-.394.289-.8.398-1.214.22-.825.36-1.668.454-2.508.03-.422.074-.84.085-1.262l.02-.547.023-.508.098-2.035.09-4.074.172-8.148.082-4.07.008-.509.004-.125.003-.082.008-.171c.016-.227.043-.454.078-.672a7.25 7.25 0 0 1 .329-1.297 7.118 7.118 0 0 1 1.367-2.27 6.368 6.368 0 0 1 2.11-1.55 6.185 6.185 0 0 1 2.546-.54 6.203 6.203 0 0 1 2.57.508 6.575 6.575 0 0 1 2.184 1.559 7.007 7.007 0 0 1 1.433 2.344c.32.875.465 1.832.418 2.789a7.112 7.112 0 0 1-.687 2.77 6.892 6.892 0 0 1-1.742 2.288 6.825 6.825 0 0 1-2.52 1.363 7.26 7.26 0 0 1-1.422.274l-.18.012c-.066 0-.109.007-.202.007l-.493.016-.98.027-3.664.102-.07 3.2 3.734.05.98.012.493.008.527-.004c.71-.024 1.422-.121 2.117-.293a9.953 9.953 0 0 0 3.852-1.891c1.14-.898 2.078-2.07 2.761-3.371 1.38-2.617 1.63-5.813.7-8.617"
                                 style="stroke:none;fill-rule:evenodd;fill:#fd5f07;fill-opacity:1" />
                         </svg>
-                        <div class="ml-3 w-full space-y-5">
-                            <div class="justify-between sm:flex">
-                                <div class="space-y-2">
-                                    <div class="font-medium dark:text-night-50">
+                        <div class="ml-0 md:ml-3 w-full">
+                            <div class="company_description">
+                                <div class="flex items-end justify-between items-center">
+                                    <div class="font-semibold text-gray-700 dark:text-night-50">
                                         Senior Software Engineer
                                     </div>
-                                    <div class="space-y-1 sm:flex sm:space-x-5">
-                                        <div
-                                            class="flex items-center gap-1 text-sm font-medium text-gray-400 dark:text-night-400">
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                                stroke-width="1.5" stroke="currentColor" aria-hidden="true"
-                                                class="h-4 w-4 shrink-0">
-                                                <path stroke-linecap="round" stroke-linejoin="round"
-                                                    d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 00.75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 00-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0112 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 01-.673-.38m0 0A2.18 2.18 0 013 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 013.413-.387m7.5 0V5.25A2.25 2.25 0 0013.5 3h-3a2.25 2.25 0 00-2.25 2.25v.894m7.5 0a48.667 48.667 0 00-7.5 0M12 12.75h.008v.008H12v-.008z">
-                                                </path>
-                                            </svg><span>
-                                                Persistent Systems
-                                            </span>
-                                        </div>
-                                        <div
-                                            class="flex items-center gap-1 text-sm font-medium text-gray-400 dark:text-night-400">
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                                stroke-width="1.5" stroke="currentColor" aria-hidden="true"
-                                                class="h-4 w-4 shrink-0">
-                                                <path stroke-linecap="round" stroke-linejoin="round"
-                                                    d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                                                <path stroke-linecap="round" stroke-linejoin="round"
-                                                    d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z">
-                                                </path>
-                                            </svg><span>
-                                                Pune, India
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="flex items-start justify-between space-y-1 sm:block sm:text-right">
                                     <div
-                                        class="order-last inline-flex items-center rounded-lg bg-primary-500/20 px-2 py-1 text-xs font-medium text-primary-500">
+                                        class="order-last inline-flex items-center border rounded-lg bg-white px-2 py-1 text-xs font-medium text-primary-500">
                                         Full-time
                                     </div>
+                                </div>
+
+                                <div class="flex items-center mt-2">
                                     <div
-                                        class="flex items-center gap-1 text-sm font-medium text-gray-400 dark:text-night-400">
-                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                            stroke-width="1.5" stroke="currentColor" aria-hidden="true"
-                                            class="h-4 w-4 shrink-0">
-                                            <path stroke-linecap="round" stroke-linejoin="round"
-                                                d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5">
-                                            </path>
+                                        class="flex items-center text-xs font-semibold text-gray-600 dark:text-night-400 mr-4">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-3.5 h-3.5">
+                                            <path fill="currentColor"
+                                                d="M7 5V2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v3h4a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zM4 16v3h16v-3zm0-2h16V7H4zM9 3v2h6V3zm2 8h2v2h-2z" />
                                         </svg>
-                                        <span>
+                                        <span class="ml-1">
+                                            Persistent Systems
+                                        </span>
+                                    </div>
+                                    <div
+                                        class="flex items-center text-xs font-semibold text-gray-600 dark:text-night-400 mr-4">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-3.5 h-3.5">
+                                            <path fill="currentColor"
+                                                d="m12 23.728l-6.364-6.364a9 9 0 1 1 12.728 0zm4.95-7.778a7 7 0 1 0-9.9 0L12 20.9zM12 13a2 2 0 1 1 0-4a2 2 0 0 1 0 4" />
+                                        </svg>
+                                        <span class="ml-1">
+                                            Pune, India
+                                        </span>
+                                    </div>
+                                    <div
+                                        class="flex items-center text-xs font-semibold text-gray-600 dark:text-night-400">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-3.5 h-3.5">
+                                            <path fill="currentColor"
+                                                d="M9 1v2h6V1h2v2h4a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h4V1zm11 10H4v8h16zm-9 2v4H6v-4zM7 5H4v4h16V5h-3v2h-2V5H9v2H7z" />
+                                        </svg>
+                                        <span class="ml-1 hidden md:block">
                                             Apr 2021 - Aug 2022
                                         </span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <ul class="list-disc text-sm text-gray-600 dark:text-night-300">
-                                <li>Proficient in end-to-end design and development on Salesforce Sales and Service
-                                    Clouds, utilizing Apex, Lightning Web Components (LWC), Aura, VisualForce, and REST
-                                    APIs.</li>
-                                <li>Adept at client communication, debugging critical production issues, and managing
-                                    deployments using Bitbucket, Jenkins, Git, and Visual Studio Code.</li>
-                                <li>Contributed to implementing DevOps processes, creating productivity tools to
-                                    streamline team workflows, and mentoring over 20 new hires on Salesforce
-                                    administration, development, and functional knowledge transfer.</li>
-                                <li>Maintained codebase integrity through comprehensive code reviews and adherence to
-                                    best practices.</li>
-                            </ul>
-
-                            <!---->
-                        </div>
-                    </div>
-                    <div class="flex items-center justify-between border-t border-dashed py-4 dark:border-night-600">
-                        <div class="flex flex-1 justify-between sm:hidden">
-                            <button disabled="" class="arrow-button rounded-lg">
-                                <span class="sr-only">
-                                    <font style="vertical-align: inherit">
-                                        <font style="vertical-align: inherit">Previous</font>
-                                    </font>
-                                </span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                    aria-hidden="true" class="h-5 w-5">
-                                    <path fill-rule="evenodd"
-                                        d="M12.79 5.23a.75.75 0 01-.02 1.06L8.832 10l3.938 3.71a.75.75 0 11-1.04 1.08l-4.5-4.25a.75.75 0 010-1.08l4.5-4.25a.75.75 0 011.06.02z"
-                                        clip-rule="evenodd"></path>
-                                </svg><span class="pr-2 text-xs">
-                                    <font style="vertical-align: inherit">
-                                        <font style="vertical-align: inherit">Previous page</font>
-                                    </font>
-                                </span></button><button disabled="" class="arrow-button rounded-lg">
-                                <span class="sr-only">
-                                    <font style="vertical-align: inherit">
-                                        <font style="vertical-align: inherit">Next</font>
-                                    </font>
-                                </span><span class="pl-2 text-xs">
-                                    <font style="vertical-align: inherit">
-                                        <font style="vertical-align: inherit">Next page</font>
-                                    </font>
-                                </span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                    aria-hidden="true" class="h-5 w-5">
-                                    <path fill-rule="evenodd"
-                                        d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
-                            </button>
-                        </div>
-                        <div class="hidden sm:flex sm:flex-1 sm:items-center sm:justify-between">
-                            <div>
-                                <p class="text-sm text-gray-700 dark:text-night-300">
-                                    <font style="vertical-align: inherit">
-                                        <font style="vertical-align: inherit">Showing 1 to 2 of 2 results</font>
-                                    </font>
-                                </p>
-                            </div>
-                            <div>
-                                <nav class="isolate inline-flex gap-2 -space-x-px" aria-label="Pagination">
-                                    <button disabled="" class="arrow-button rounded-full">
-                                        <span class="sr-only">
-                                            <font style="vertical-align: inherit">
-                                                <font style="vertical-align: inherit">First page</font>
-                                            </font>
-                                        </span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
-                                            fill="currentColor" aria-hidden="true" class="h-5 w-5">
-                                            <path fill-rule="evenodd"
-                                                d="M15.79 14.77a.75.75 0 01-1.06.02l-4.5-4.25a.75.75 0 010-1.08l4.5-4.25a.75.75 0 111.04 1.08L11.832 10l3.938 3.71a.75.75 0 01.02 1.06zm-6 0a.75.75 0 01-1.06.02l-4.5-4.25a.75.75 0 010-1.08l4.5-4.25a.75.75 0 111.04 1.08L5.832 10l3.938 3.71a.75.75 0 01.02 1.06z"
-                                                clip-rule="evenodd"></path>
-                                        </svg></button><button disabled="" class="arrow-button rounded-lg">
-                                        <span class="sr-only">
-                                            <font style="vertical-align: inherit">
-                                                <font style="vertical-align: inherit">Previous page</font>
-                                            </font>
-                                        </span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
-                                            fill="currentColor" aria-hidden="true" class="h-5 w-5">
-                                            <path fill-rule="evenodd"
-                                                d="M12.79 5.23a.75.75 0 01-.02 1.06L8.832 10l3.938 3.71a.75.75 0 11-1.04 1.08l-4.5-4.25a.75.75 0 010-1.08l4.5-4.25a.75.75 0 011.06.02z"
-                                                clip-rule="evenodd"></path>
-                                        </svg></button><button class="button active" type="button" disabled=""
-                                        aria-label="Go to page number 1">
-                                        <font style="vertical-align: inherit">
-                                            <font style="vertical-align: inherit">1</font>
-                                        </font>
-                                    </button><button disabled="" class="arrow-button rounded-lg">
-                                        <span class="sr-only">
-                                            <font style="vertical-align: inherit">
-                                                <font style="vertical-align: inherit">Next page</font>
-                                            </font>
-                                        </span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
-                                            fill="currentColor" aria-hidden="true" class="h-5 w-5">
-                                            <path fill-rule="evenodd"
-                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
-                                                clip-rule="evenodd"></path>
-                                        </svg></button><button disabled="" class="arrow-button rounded-full">
-                                        <span class="sr-only">
-                                            <font style="vertical-align: inherit">
-                                                <font style="vertical-align: inherit">Last page</font>
-                                            </font>
-                                        </span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
-                                            fill="currentColor" aria-hidden="true" class="h-5 w-5">
-                                            <path fill-rule="evenodd"
-                                                d="M10.21 14.77a.75.75 0 01.02-1.06L14.168 10 10.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
-                                                clip-rule="evenodd"></path>
-                                            <path fill-rule="evenodd"
-                                                d="M4.21 14.77a.75.75 0 01.02-1.06L8.168 10 4.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
-                                                clip-rule="evenodd"></path>
-                                        </svg>
-                                    </button>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card bg-white p-4 rounded-lg">
-                    <h2 class="mb-5 text-lg font-semibold dark:text-night-50">
-                        <font style="vertical-align: inherit">
-                            <font style="vertical-align: inherit">Volunteer work</font>
-                        </font>
-                    </h2>
-                    <div class="mb-5 flex items-start">
-                        <img src="https://vue-resume-six.vercel.app/assets/green-peace.ed8a84c2.jpg" alt="Avatar"
-                            class="h-14 w-14 shrink-0 rounded-xl border-2 border-gray-50 shadow-sm dark:border-night-700" />
-                        <div class="ml-3 w-full space-y-5">
-                            <div class="justify-between sm:flex">
-                                <div class="space-y-2">
-                                    <div class="font-medium dark:text-night-50">
-                                        <font style="vertical-align: inherit">
-                                            <font style="vertical-align: inherit">Team Coordinator</font>
-                                        </font>
-                                    </div>
-                                    <div class="space-y-1 sm:flex sm:space-x-5">
-                                        <div
-                                            class="flex items-center gap-1 text-sm font-medium text-gray-400 dark:text-night-400">
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                                stroke-width="1.5" stroke="currentColor" aria-hidden="true"
-                                                class="h-4 w-4 shrink-0">
-                                                <path stroke-linecap="round" stroke-linejoin="round"
-                                                    d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 00.75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 00-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0112 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 01-.673-.38m0 0A2.18 2.18 0 013 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 013.413-.387m7.5 0V5.25A2.25 2.25 0 0013.5 3h-3a2.25 2.25 0 00-2.25 2.25v.894m7.5 0a48.667 48.667 0 00-7.5 0M12 12.75h.008v.008H12v-.008z">
-                                                </path>
-                                            </svg><span>
-                                                <font style="vertical-align: inherit">
-                                                    <font style="vertical-align: inherit">Green Peace</font>
-                                                </font>
-                                            </span>
-                                        </div>
-                                        <div
-                                            class="flex items-center gap-1 text-sm font-medium text-gray-400 dark:text-night-400">
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                                stroke-width="1.5" stroke="currentColor" aria-hidden="true"
-                                                class="h-4 w-4 shrink-0">
-                                                <path stroke-linecap="round" stroke-linejoin="round"
-                                                    d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                                                <path stroke-linecap="round" stroke-linejoin="round"
-                                                    d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z">
-                                                </path>
-                                            </svg><span>
-                                                <font style="vertical-align: inherit">
-                                                    <font style="vertical-align: inherit">new York</font>
-                                                </font>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="flex items-start justify-between space-y-1 sm:block sm:text-right">
-                                    <div
-                                        class="order-last inline-flex items-center rounded-lg bg-primary-500/20 px-2 py-1 text-xs font-medium text-primary-500">
-                                        <font style="vertical-align: inherit">
-                                            <font style="vertical-align: inherit">Remote</font>
-                                        </font>
-                                    </div>
-                                    <div
-                                        class="flex items-center gap-1 text-sm font-medium text-gray-400 dark:text-night-400">
-                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                            stroke-width="1.5" stroke="currentColor" aria-hidden="true"
-                                            class="h-4 w-4 shrink-0">
-                                            <path stroke-linecap="round" stroke-linejoin="round"
-                                                d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5">
-                                            </path>
-                                        </svg><span>
-                                            <font style="vertical-align: inherit">
-                                                <font style="vertical-align: inherit">January 2000 - Current</font>
-                                            </font>
+                                        <span class="ml-1 block md:hidden">
+                                            Apr 21 - Aug 22
                                         </span>
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-sm text-gray-600 dark:text-night-300">
-                                <font style="vertical-align: inherit">
-                                    <font style="vertical-align: inherit">Greenpeace is an independent global campaign
-                                        network that
-                                        works to change attitudes and behaviour, to protect and
-                                        conserve the environment and promote peace. It comprises
-                                        26 independent national/regional Greenpeace organizations
-                                        with a presence in over 55 countries across Europe,
-                                        Africa, Americas, Asia and the Pacific, as well as a
-                                        coordination and support organization, Greenpeace
-                                        International.</font>
-                                </font>
-                            </p>
-                            <!---->
+
+                            <div class="text-sm text-gray-600 mt-2">
+                                <div class="my-2">
+                                    <p class="font-semibold mb-1 mt-3 text-gray-700">Salesforce Development</p>
+                                    <ul class="list-disc pl-5">
+                                        <li>Built complex solutions in Apex, Aura Components, SOQL, and API
+                                            Integrations.</li>
+                                        <li>Integrated Inbound REST APIs for Split Org using External Objects.</li>
+                                        <li>Fixed production bugs, Optimized SOQL, and maintained code quality with Best
+                                            Practices.</li>
+                                        <li>Contributed to DevOps processes, including Dev Sandbox setup, code
+                                            deployment via BitBucket, Jenkins, and VSCode.</li>
+                                        <li>Handled data migration, export/import, and mapping to business objects in
+                                            Data Loader.</li>
+                                        <li>Maintained custom objects, fields, layouts, custom metadata/settings, and
+                                            labels.</li>
+                                        <li>Managed Profiles, Permission Sets, Apex Class Security, and OWD Settings.
+                                        </li>
+                                        <li>Designed Test Data Generator Tool for unit testing.</li>
+
+                                    </ul>
+                                </div>
+
+                                <div class="mb-2">
+                                    <p class="font-semibold mb-1 text-gray-700">Knowledge Transfer &amp; Code Quality
+                                    </p>
+                                    <ul class="list-disc pl-5">
+                                        <li>Conducted functional &amp; technical KT sessions for 20+ new team members.
+                                        </li>
+                                        <li>Maintained &amp; reviewed code for Apex Classes &amp; Aura Components.</li>
+                                        <li>Ensured high-quality code delivery and adherence to best practices.</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
